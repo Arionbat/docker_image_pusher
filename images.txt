@@ -11,3 +11,14 @@ juicedata/juicefs-csi-driver:v0.31.4
 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0
 registry.k8s.io/sig-storage/csi-resizer:v1.9.0
 registry.k8s.io/sig-storage/livenessprobe:v2.12.0
+juicedata/mount:ce-v1.3.1
+
+# harbor
+goharbor/harbor-core:v2.14.3
+goharbor/harbor-db:v2.14.3
+goharbor/harbor-jobservice:v2.14.3
+goharbor/harbor-portal:v2.14.3
+goharbor/harbor-registryctl:v2.14.3
+goharbor/redis-photon:v2.14.3
+goharbor/registry-photon:v2.14.3
+goharbor/trivy-adapter-photon:v2.14.3
