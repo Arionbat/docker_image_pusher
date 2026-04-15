@@ -4,3 +4,10 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+
+# juicefs
+juicedata/csi-dashboard:v0.31.4
+juicedata/juicefs-csi-driver:v0.31.4
+registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0
+registry.k8s.io/sig-storage/csi-resizer:v1.9.0
+registry.k8s.io/sig-storage/livenessprobe:v2.12.0
